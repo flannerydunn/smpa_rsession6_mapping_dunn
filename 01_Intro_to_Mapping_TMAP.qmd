@@ -282,7 +282,7 @@ tm_shape(states_geo) + tm_polygons() +
 ```{r}
 # we can actually save our tmap as its own object as well
 mymap <- tm_shape(states_geo) + tm_polygons() +
-  tm_shape(cities_geo) + tm_dots(col = "red", size = 0.1)
+  tm_shape(cities_geo) + tm_dots(col = "red", size = 0.01)
 
 mymap
 ```
